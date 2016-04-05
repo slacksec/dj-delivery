@@ -1,0 +1,204 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'react-dom',
+1 verbose cli   '--save-dev' ]
+2 info using npm@2.11.3
+3 info using node@v0.12.7
+4 verbose install initial load of /home/geezhawk/dev/delivery/package.json
+5 verbose installManyTop reading scoped package data from /home/geezhawk/dev/delivery/node_modules/babel/package.json
+6 verbose installManyTop reading scoped package data from /home/geezhawk/dev/delivery/node_modules/babel-core/package.json
+7 verbose installManyTop reading scoped package data from /home/geezhawk/dev/delivery/node_modules/babel-loader/package.json
+8 verbose installManyTop reading scoped package data from /home/geezhawk/dev/delivery/node_modules/babel-preset-react/package.json
+9 verbose installManyTop reading scoped package data from /home/geezhawk/dev/delivery/node_modules/expose-loader/package.json
+10 verbose installManyTop reading scoped package data from /home/geezhawk/dev/delivery/node_modules/jquery/package.json
+11 verbose installManyTop reading scoped package data from /home/geezhawk/dev/delivery/node_modules/jquery-loader/package.json
+12 verbose installManyTop reading scoped package data from /home/geezhawk/dev/delivery/node_modules/react/package.json
+13 verbose installManyTop reading scoped package data from /home/geezhawk/dev/delivery/node_modules/webpack/package.json
+14 verbose installManyTop reading scoped package data from /home/geezhawk/dev/delivery/node_modules/webpack-bundle-tracker/package.json
+15 info package.json expose-loader@0.7.1 No license field.
+16 info package.json jquery-loader@2.1.1 No license field.
+17 verbose readDependencies loading dependencies from /home/geezhawk/dev/delivery/package.json
+18 silly cache add args [ 'react-dom', null ]
+19 verbose cache add spec react-dom
+20 silly cache add parsed spec { raw: 'react-dom',
+20 silly cache add   scope: null,
+20 silly cache add   name: 'react-dom',
+20 silly cache add   rawSpec: '',
+20 silly cache add   spec: '*',
+20 silly cache add   type: 'range' }
+21 silly addNamed react-dom@*
+22 verbose addNamed "*" is a valid semver range for react-dom
+23 silly addNameRange { name: 'react-dom', range: '*', hasData: false }
+24 silly mapToRegistry name react-dom
+25 silly mapToRegistry using default registry
+26 silly mapToRegistry registry https://registry.npmjs.org/
+27 silly mapToRegistry uri https://registry.npmjs.org/react-dom
+28 verbose addNameRange registry:https://registry.npmjs.org/react-dom not in flight; fetching
+29 verbose request uri https://registry.npmjs.org/react-dom
+30 verbose request no auth needed
+31 info attempt registry request try #1 at 23:52:17
+32 verbose request id 56234b39b83b4c86
+33 verbose etag "65W6JL98FH2BT5FRKFQ79QQOS"
+34 http request GET https://registry.npmjs.org/react-dom
+35 http 200 https://registry.npmjs.org/react-dom
+36 silly get cb [ 200,
+36 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+36 silly get     etag: '"4OY1O5J8B8MTN98KPZ9MQVADE"',
+36 silly get     'content-type': 'application/json',
+36 silly get     'cache-control': 'max-age=300',
+36 silly get     'content-length': '16816',
+36 silly get     'accept-ranges': 'bytes',
+36 silly get     date: 'Mon, 01 Feb 2016 16:52:18 GMT',
+36 silly get     via: '1.1 varnish',
+36 silly get     age: '107',
+36 silly get     connection: 'keep-alive',
+36 silly get     'x-served-by': 'cache-hkg6822-HKG',
+36 silly get     'x-cache': 'HIT',
+36 silly get     'x-cache-hits': '1',
+36 silly get     'x-timer': 'S1454345538.463660,VS0,VE0',
+36 silly get     vary: 'Accept' } ]
+37 verbose get saving react-dom to /home/geezhawk/.npm/registry.npmjs.org/react-dom/.cache.json
+38 silly addNameRange number 2 { name: 'react-dom', range: '*', hasData: true }
+39 silly addNameRange versions [ 'react-dom',
+39 silly addNameRange   [ '0.1.0',
+39 silly addNameRange     '0.14.0-beta1',
+39 silly addNameRange     '0.14.0-beta2',
+39 silly addNameRange     '0.14.0-beta3',
+39 silly addNameRange     '0.14.0-rc1',
+39 silly addNameRange     '0.14.0',
+39 silly addNameRange     '0.14.1',
+39 silly addNameRange     '0.14.2',
+39 silly addNameRange     '0.14.3',
+39 silly addNameRange     '0.14.4',
+39 silly addNameRange     '0.14.5',
+39 silly addNameRange     '0.14.6',
+39 silly addNameRange     '0.15.0-alpha.1',
+39 silly addNameRange     '0.14.7' ] ]
+40 silly addNamed react-dom@0.14.7
+41 verbose addNamed "0.14.7" is a plain semver version for react-dom
+42 silly mapToRegistry name react-dom
+43 silly mapToRegistry using default registry
+44 silly mapToRegistry registry https://registry.npmjs.org/
+45 silly mapToRegistry uri https://registry.npmjs.org/react-dom
+46 verbose addRemoteTarball https://registry.npmjs.org/react-dom/-/react-dom-0.14.7.tgz not in flight; adding
+47 verbose addRemoteTarball [ 'https://registry.npmjs.org/react-dom/-/react-dom-0.14.7.tgz',
+47 verbose addRemoteTarball   '973c302110b3a680c9afe69d07c623b9c0952d82' ]
+48 info retry fetch attempt 1 at 23:52:18
+49 info attempt registry request try #1 at 23:52:18
+50 http fetch GET https://registry.npmjs.org/react-dom/-/react-dom-0.14.7.tgz
+51 http fetch 200 https://registry.npmjs.org/react-dom/-/react-dom-0.14.7.tgz
+52 silly fetchAndShaCheck shasum 973c302110b3a680c9afe69d07c623b9c0952d82
+53 verbose addTmpTarball /tmp/npm-25588-2d3fd87b/registry.npmjs.org/react-dom/-/react-dom-0.14.7.tgz not in flight; adding
+54 verbose addTmpTarball already have metadata; skipping unpack for react-dom@0.14.7
+55 silly cache afterAdd react-dom@0.14.7
+56 verbose afterAdd /home/geezhawk/.npm/react-dom/0.14.7/package/package.json not in flight; writing
+57 verbose afterAdd /home/geezhawk/.npm/react-dom/0.14.7/package/package.json written
+58 silly install resolved [ { name: 'react-dom',
+58 silly install resolved     version: '0.14.7',
+58 silly install resolved     description: 'React package for working with the DOM.',
+58 silly install resolved     main: 'index.js',
+58 silly install resolved     repository:
+58 silly install resolved      { type: 'git',
+58 silly install resolved        url: 'git+https://github.com/facebook/react.git' },
+58 silly install resolved     keywords: [ 'react' ],
+58 silly install resolved     license: 'BSD-3-Clause',
+58 silly install resolved     bugs: { url: 'https://github.com/facebook/react/issues' },
+58 silly install resolved     homepage: 'https://facebook.github.io/react/',
+58 silly install resolved     dependencies: {},
+58 silly install resolved     peerDependencies: { react: '^0.14.7' },
+58 silly install resolved     scripts: { start: 'node server.js' },
+58 silly install resolved     _id: 'react-dom@0.14.7',
+58 silly install resolved     _shasum: '973c302110b3a680c9afe69d07c623b9c0952d82',
+58 silly install resolved     _resolved: 'https://registry.npmjs.org/react-dom/-/react-dom-0.14.7.tgz',
+58 silly install resolved     _from: 'react-dom@*',
+58 silly install resolved     _npmVersion: '2.14.12',
+58 silly install resolved     _nodeVersion: '4.2.6',
+58 silly install resolved     _npmUser: { name: 'graue', email: 'scott@oceanbase.org' },
+58 silly install resolved     dist:
+58 silly install resolved      { shasum: '973c302110b3a680c9afe69d07c623b9c0952d82',
+58 silly install resolved        tarball: 'http://registry.npmjs.org/react-dom/-/react-dom-0.14.7.tgz' },
+58 silly install resolved     maintainers: [ [Object], [Object], [Object] ],
+58 silly install resolved     directories: {} } ]
+59 info install react-dom@0.14.7 into /home/geezhawk/dev/delivery
+60 info installOne react-dom@0.14.7
+61 verbose installOne of react-dom to /home/geezhawk/dev/delivery not in flight; installing
+62 verbose lock using /home/geezhawk/.npm/_locks/react-dom-76a08f6562cd8592.lock for /home/geezhawk/dev/delivery/node_modules/react-dom
+63 silly install write writing react-dom 0.14.7 to /home/geezhawk/dev/delivery/node_modules/react-dom
+64 verbose unbuild node_modules/react-dom
+65 silly gentlyRm /home/geezhawk/dev/delivery/node_modules/react-dom is being purged from base /home/geezhawk/dev/delivery
+66 verbose gentlyRm don't care about contents; nuking /home/geezhawk/dev/delivery/node_modules/react-dom
+67 verbose tar unpack /home/geezhawk/.npm/react-dom/0.14.7/package.tgz
+68 verbose tar unpacking to /home/geezhawk/dev/delivery/node_modules/react-dom
+69 silly gentlyRm /home/geezhawk/dev/delivery/node_modules/react-dom is being purged
+70 verbose gentlyRm don't care about contents; nuking /home/geezhawk/dev/delivery/node_modules/react-dom
+71 silly gunzTarPerm modes [ '755', '644' ]
+72 silly gunzTarPerm extractEntry package.json
+73 silly gunzTarPerm extractEntry README.md
+74 silly gunzTarPerm extractEntry LICENSE
+75 silly gunzTarPerm extractEntry index.js
+76 silly gunzTarPerm extractEntry server.js
+77 silly gunzTarPerm extractEntry PATENTS
+78 silly gunzTarPerm extractEntry dist/react-dom-server.js
+79 silly gunzTarPerm extractEntry dist/react-dom-server.min.js
+80 silly gunzTarPerm extractEntry dist/react-dom.js
+81 silly gunzTarPerm extractEntry dist/react-dom.min.js
+82 verbose write writing to /home/geezhawk/dev/delivery/node_modules/react-dom/package.json
+83 info preinstall react-dom@0.14.7
+84 verbose readDependencies loading dependencies from /home/geezhawk/dev/delivery/node_modules/react-dom/package.json
+85 silly prepareForInstallMany adding react@^0.14.7 from react-dom peerDependencies
+86 warn peerDependencies The peer dependency react@^0.14.7 included from react-dom will no
+87 warn peerDependencies longer be automatically installed to fulfill the peerDependency
+88 warn peerDependencies in npm 3+. Your application will need to depend on it explicitly.
+89 verbose readDependencies loading dependencies from /home/geezhawk/dev/delivery/node_modules/react-dom/package.json
+90 silly install resolved []
+91 verbose about to build /home/geezhawk/dev/delivery/node_modules/react-dom
+92 info build /home/geezhawk/dev/delivery/node_modules/react-dom
+93 info linkStuff react-dom@0.14.7
+94 silly linkStuff react-dom@0.14.7 has /home/geezhawk/dev/delivery/node_modules as its parent node_modules
+95 verbose linkBins react-dom@0.14.7
+96 verbose linkMans react-dom@0.14.7
+97 verbose rebuildBundles react-dom@0.14.7
+98 info install react-dom@0.14.7
+99 info postinstall react-dom@0.14.7
+100 verbose readDependencies loading dependencies from /home/geezhawk/dev/delivery/package.json
+101 verbose targetResolver reading package data from /home/geezhawk/dev/delivery/node_modules/babel/package.json
+102 verbose targetResolver reading package data from /home/geezhawk/dev/delivery/node_modules/babel-core/package.json
+103 verbose targetResolver reading package data from /home/geezhawk/dev/delivery/node_modules/babel-loader/package.json
+104 verbose targetResolver reading package data from /home/geezhawk/dev/delivery/node_modules/babel-preset-react/package.json
+105 verbose targetResolver reading package data from /home/geezhawk/dev/delivery/node_modules/expose-loader/package.json
+106 verbose targetResolver reading package data from /home/geezhawk/dev/delivery/node_modules/jquery/package.json
+107 verbose targetResolver reading package data from /home/geezhawk/dev/delivery/node_modules/jquery-loader/package.json
+108 verbose targetResolver reading package data from /home/geezhawk/dev/delivery/node_modules/react/package.json
+109 verbose targetResolver reading package data from /home/geezhawk/dev/delivery/node_modules/react-dom/package.json
+110 verbose targetResolver reading package data from /home/geezhawk/dev/delivery/node_modules/webpack/package.json
+111 verbose targetResolver reading package data from /home/geezhawk/dev/delivery/node_modules/webpack-bundle-tracker/package.json
+112 verbose targetResolver reading package data from /home/geezhawk/dev/delivery/node_modules/.bin/babel/package.json
+113 verbose targetResolver reading package data from /home/geezhawk/dev/delivery/node_modules/.bin/babel-external-helpers/package.json
+114 verbose targetResolver reading package data from /home/geezhawk/dev/delivery/node_modules/.bin/babel-node/package.json
+115 verbose targetResolver reading package data from /home/geezhawk/dev/delivery/node_modules/.bin/webpack/package.json
+116 verbose already installed skipping react@^0.14.7 /home/geezhawk/dev/delivery
+117 silly install resolved []
+118 verbose unlock done using /home/geezhawk/.npm/_locks/react-dom-76a08f6562cd8592.lock for /home/geezhawk/dev/delivery/node_modules/react-dom
+119 verbose validateInstall loading /home/geezhawk/dev/delivery/package.json for validation
+120 verbose stack Error: The package react does not satisfy its siblings' peerDependencies requirements!
+120 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:125:32
+120 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:267:7
+120 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:138:5
+120 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:251:14
+120 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+120 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:251:14
+120 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+120 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:251:14
+120 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+120 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:251:14
+121 verbose cwd /home/geezhawk/dev/delivery/assets/js
+122 error Linux 3.16.0-38-generic
+123 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "react-dom" "--save-dev"
+124 error node v0.12.7
+125 error npm  v2.11.3
+126 error code EPEERINVALID
+127 error peerinvalid The package react does not satisfy its siblings' peerDependencies requirements!
+127 error peerinvalid Peer react-dom@0.14.7 wants react@^0.14.7
+128 verbose exit [ 1, true ]
